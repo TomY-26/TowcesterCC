@@ -1,7 +1,12 @@
 body {
     background-color: #e8e8e8;
     margin: 0;
+    min-width: 280px;
 }
+img {
+    max-height: 100%;
+    max-width: 100%;
+} 
 .companyName {
     font-family: "Pacifico", cursive;
     font-size: 1.2rem;
@@ -23,6 +28,7 @@ body {
     color: #222831;
     line-height: 1.5;
 }
+
 .sectionGrid {
     display: grid;
     grid-template: repeat(4, 1fr) / 100%;
@@ -37,10 +43,6 @@ body {
     align-items: stretch;
     margin: 0 0.5rem;
 }
-img {
-    max-height: 100%;
-    max-width: 100%;
-} 
 
 /*------------------------------------------------------------------------Nav Menu-----------------------------------------------------------------------------------*/
 nav {

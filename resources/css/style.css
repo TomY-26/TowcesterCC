@@ -26,6 +26,7 @@ body {
 .sectionGrid {
     display: grid;
     grid-template: repeat(4, 1fr) / 100%;
+    max-height: 530rem; 
 }
 .grid {
     display: grid;
@@ -34,16 +35,12 @@ body {
     column-gap: 0.5rem;
     justify-items: stretch;
     align-items: stretch;
+    margin: 0 0.5rem;
 }
 img {
     max-height: 100%;
     max-width: 100%;
 } 
-
-figure {
-    margin: 0 .5rem;
-    height: auto;
-}
 
 /*------------------------------------------------------------------------Nav Menu-----------------------------------------------------------------------------------*/
 nav {
@@ -104,7 +101,6 @@ nav h2 {
     color: #222831;
 }
 /*------------------------------------------------------------------------Banner Section-------------------------------------------------------------------------------*/
-
 #banner {
     margin-top: 5rem;
     background-image: url("../images/headerBanner.jpg");
@@ -121,9 +117,8 @@ nav h2 {
     font-size: 1.75rem;
 }
 /*------------------------------------------------------------------------Who We Are Section----------------------------------------------------------------------------*/
-
 .grid #whoWeAreGrid {
-    grid-template: repeat(9, 14.28%) / 100%;
+    grid-template: repeat(8, 12.5%) / 100%;
 }
 
 #whoWeAreImage1 {
@@ -145,8 +140,7 @@ nav h2 {
     grid-area: 9/1/10/1;
 }
 
-/*------------------------------------------------------------------------Who We Are Section----------------------------------------------------------------------------*/
-
+/*------------------------------------------------------------------------Race Section--------------------------------------------------------------------------------*/
 .grid #raceGrid {
     grid-template: repeat(8, 12.5%) / 100%;
 }
@@ -169,3 +163,89 @@ nav h2 {
     grid-area: 8/1/9/1;
 }
 
+/*------------------------------------------------------------------------Race Section--------------------------------------------------------------------------------*/
+.grid #coffeeGrid {
+    grid-template: repeat(10, 10%) / 100%;
+}
+#coffeeImage1 {
+    grid-area: 1/1/2/1;
+}
+#coffeeImage2 {
+    grid-area: 2/1/4/1;
+}
+#coffeeImage3 {
+    grid-area: 4/1/5/1;
+}
+#coffeeImage4 {
+    grid-area: 5/1/7/1;
+}
+#coffeeImage5 {
+    grid-area: 7/1/8/1;
+}
+#coffeeImage6 {
+    grid-area: 8/1/10/1;
+}
+
+/*------------------------------------------------------------------------Race Section--------------------------------------------------------------------------------*/
+#explore {
+    height: auto;
+}
+
+.grid #exploreGrid {
+    grid-template: repeat(10, 10%) / 100%;
+}
+#exploreImage1 {
+    grid-area: 1/1/2/1;
+}
+#exploreImage2 {
+    grid-area: 2/1/4/1;
+}
+#exploreImage3 {
+    grid-area: 4/1/5/1;
+}
+#exploreImage4 {
+    grid-area: 5/1/7/1;
+}
+#exploreImage5 {
+    grid-area: 7/1/8/1;
+}
+#exploreImage6 {
+    grid-area: 8/1/10/1;
+}
+
+/*------------------------------------------------------------------------Footer -------------------------------------------------------------------------------------*/
+.footerMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+    background-color: #30475e;
+    border-top: solid 0.125rem #f05454;
+    align-items: center;
+    margin: 0.5rem 0 0;
+}
+.footerMenu ul {
+    list-style-type: none;
+    margin: 0 1rem 0 0;
+    list-style-type: none;
+    font-size: 1.25rem;
+    padding: 0;
+    text-align: right;
+}
+.footerMenu li {
+    display: inline;
+    padding: .5rem
+}
+.footerMenu a {
+    color: #f05454;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerMenu a:visited {
+    color: #f05454;
+}
+.footerMenu a:hover {
+    background-color: #f05454;
+    color: #30475e;
+}

@@ -165,7 +165,7 @@ nav h2 {
     grid-area: 8/1/9/1;
 }
 
-/*------------------------------------------------------------------------Race Section--------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------Coffee Section--------------------------------------------------------------------------------*/
 .grid #coffeeGrid {
     grid-template: repeat(10, 10%) / 100%;
 }
@@ -188,10 +188,7 @@ nav h2 {
     grid-area: 8/1/10/1;
 }
 
-/*------------------------------------------------------------------------Race Section--------------------------------------------------------------------------------*/
-#explore {
-    height: auto;
-}
+/*------------------------------------------------------------------------Explore Section--------------------------------------------------------------------------------*/
 
 .grid #exploreGrid {
     grid-template: repeat(10, 10%) / 100%;
@@ -230,7 +227,6 @@ nav h2 {
     list-style-type: none;
     margin: 0 1rem 0 0;
     list-style-type: none;
-    font-size: 1.25rem;
     padding: 0;
     text-align: right;
 }
@@ -250,4 +246,363 @@ nav h2 {
 .footerMenu a:hover {
     background-color: #f05454;
     color: #30475e;
+}
+
+/*------------------------------------------------------------------------Small tablet screen sizing ------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 540px) {
+
+    .infoTitle {
+        font-size: 1.5rem;
+    }
+    .infoText{
+        font-size: 1.1rem;
+    }
+    nav {
+        height: 6rem;
+    }
+    nav h2 {
+        font-size: 1.75rem;
+    }
+    .icon {
+        height: 5rem;
+        width: 5rem;
+    }
+    .dropDown {
+        font-size: 1.25rem;
+    }
+    #banner {
+        margin-top: 6rem;
+        height: 21rem;
+    }
+    #banner .companyName {
+        font-size: 2.25rem;
+    }
+    .footerMenu {
+        height: 6rem;
+    }
+    .footerMenu h2 {
+        font-size: 1.5rem;
+    }
+    .footerMenu a {
+        font-size: 1rem;
+    }
+}
+
+/*------------------------------------------------------------------------Tablet screen sizing -------------------------------------------------------------------------*/
+@media only screen and (min-width: 750px) {
+
+    .mobile{
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
+    .infoTitle {
+        font-size: 2rem;
+    }
+    .infoText{
+        font-size: 1.5rem;
+    }
+    nav {
+        height: 8rem;
+        border-bottom: solid 0.25rem #f05454;
+        flex-direction: row-reverse;
+    }
+    nav h2 {
+        font-size: 2.25rem;
+        margin: 0;
+    }
+    #banner {
+        margin-top: 8rem;
+        height: 27rem;
+    }
+    #banner .companyName {
+        font-size: 3.5rem;
+    }
+    .tablet {
+        list-style-type: none;
+        margin: 0 1rem 0 0;
+        list-style-type: none;
+        padding: 0 0 0 1rem;
+        text-align: left;
+    }
+    .tablet li {
+        display: inline;
+        padding: .5rem
+    }
+    .tablet a {
+        color: #f05454;
+        text-decoration: none;
+        font-size: 1.25rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .tablet a:visited {
+        color: #f05454;
+    }
+    .tablet a:hover {
+        background-color: #f05454;
+        color: #30475e;
+    }
+    /*----------------------------Tablet grid layout-----------------------------*/
+    /*--------------------Who We Are Section---------------------*/
+    .grid #whoWeAreGrid {
+        grid-template: repeat(7, 14%) / repeat(2, 50%);
+    }
+    #whoWeAreImage1 {
+        grid-area: 1/1/3/1;
+    }
+    #whoWeAreImage2 {
+        grid-area: 3/1/5/3;
+    }
+    #whoWeAreImage3 {
+        grid-area: 1/2/3/2;
+    }
+    #whoWeAreImage4 {
+        grid-area: 5/2/6/2;
+    }
+    #whoWeAreImage5 {
+        grid-area: 5/1/7/1;
+    }
+    #whoWeAreImage6 {
+        grid-area: 6/2/7/2;
+    }
+    /*----------------------Race Section---------------------*/
+    .grid #raceGrid {
+        grid-template: repeat(8, 12.5%) / repeat(2, 50%);
+    }
+    #competeImage1 {
+        grid-area: 5/2/6/3;
+    }
+    #competeImage2 {
+        grid-area: 3/1/5/1;
+    }
+    #competeImage3 {
+        grid-area: 5/1/6/1;
+    }
+    #competeImage4 {
+        grid-area: 6/1/8/3;
+    }
+    #competeImage5 {
+        grid-area: 3/2/5/3;
+    }
+    #competeImage6 {
+        grid-area: 1/1/3/3;
+    }
+    /*----------------------Coffee Section---------------------*/
+
+    .grid #coffeeGrid {
+        grid-template: repeat(7, 14%) / repeat(2, 50%);
+    }
+    #coffeeImage1 {
+        grid-area: 3/1/4/2;
+    }
+    #coffeeImage2 {
+        grid-area: 1/1/3/3;
+    }
+    #coffeeImage3 {
+        grid-area: 4/1/5/3;
+    }
+    #coffeeImage4 {
+        grid-area: 5/1/7/2;
+    }
+    #coffeeImage5 {
+        grid-area: 3/2/4/3;
+    }
+    #coffeeImage6 {
+        grid-area: 5/2/7/3;
+    }
+/*----------------------Explore Section---------------------*/
+
+    .grid #exploreGrid {
+        grid-template: repeat(7, 14%) / repeat(2, 50%);
+    }
+    #exploreImage1 {
+        grid-area: 1/1/2/3;
+    }
+    #exploreImage2 {
+        grid-area: 2/1/4/2;
+    }
+    #exploreImage3 {
+        grid-area: 5/1/7/3;
+    }
+    #exploreImage4 {
+        grid-area: 2/2/4/3;
+    }
+    #exploreImage5 {
+        grid-area: 4/1/5/2;
+    }
+    #exploreImage6 {
+        grid-area: 4/2/5/3;
+    }
+    /*----------------------------Footer-----------------------------*/
+    .footerMenu {
+        height: 8rem;
+        border-top: solid 0.25rem #f05454;
+    }
+    .footerMenu h2 {
+        font-size: 2rem;
+    }
+    .footerMenu a {
+        font-size: 1.5rem;
+    }
+}
+
+/*------------------------------------------------------------------------Desktop screen sizing -------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1025px) {
+
+    .desktop {
+        display: block;
+    }
+    .info {
+        width: 85%;
+        margin: 0.5rem auto;
+    }
+    .infoTitle {
+        font-size: 3rem;
+    }
+    .infoText{
+        font-size: 1.75rem;
+    }
+    nav {
+        height: 9rem;
+        border-bottom: solid 0.35rem #f05454;
+    }
+    nav h2 {
+        font-size: 3.25rem;
+    }
+    #banner {
+        margin-top: 9rem;
+        height: 55rem;
+    }
+    #banner .companyName {
+        font-size: 4.5rem;
+    }
+    .desktop {
+        list-style-type: none;
+        margin: 0 1rem 0 0;
+        list-style-type: none;
+        padding: 0 0 0 1rem;
+        text-align: left;
+    }
+    .desktop li {
+        display: inline;
+        padding: 1rem
+    }
+    .desktop a {
+        color: #f05454;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .desktop a:visited {
+        color: #f05454;
+    }
+    .desktop a:hover {
+        background-color: #f05454;
+        color: #30475e;
+    }
+    /*----------------------------Tablet grid layout-----------------------------*/
+    /*--------------------Who We Are Section---------------------*/
+    .grid #whoWeAreGrid {
+        grid-template: repeat(5, 20%) / repeat(4, 25%);
+    }
+    #whoWeAreImage1 {
+        grid-area: 1/1/3/2;
+    }
+    #whoWeAreImage2 {
+        grid-area: 3/1/5/3;
+    }
+    #whoWeAreImage3 {
+        grid-area: 1/2/3/3;
+    }
+    #whoWeAreImage4 {
+        grid-area: 3/3/4/4;
+    }
+    #whoWeAreImage5 {
+        grid-area: 1/3/3/4;
+    }
+    #whoWeAreImage6 {
+        grid-area: 4/3/5/4;
+    }
+    /*----------------------Race Section---------------------*/
+    .grid #raceGrid {
+        grid-template: repeat(5, 20%) / repeat(4, 25%);
+    }
+    #competeImage1 {
+        grid-area: 1/3/2/4;
+    }
+    #competeImage2 {
+        display: none;
+    }
+    #competeImage3 {
+        grid-area: 1/2/2/3;
+    }
+    #competeImage4 {
+        grid-area: 2/2/4/4;
+    }
+    #competeImage5 {
+        grid-area: 2/1/4/2;
+    }
+    #competeImage6 {
+        grid-area: 1/1/2/2;
+    }
+    /*----------------------Coffee Section---------------------*/
+
+    .grid #coffeeGrid {
+        grid-template: repeat(7, 14%) / repeat(2, 50%);
+    }
+    #coffeeImage1 {
+        grid-area: 3/1/4/2;
+    }
+    #coffeeImage2 {
+        grid-area: 1/1/3/3;
+    }
+    #coffeeImage3 {
+        grid-area: 4/1/5/3;
+    }
+    #coffeeImage4 {
+        grid-area: 5/1/7/2;
+    }
+    #coffeeImage5 {
+        grid-area: 3/2/4/3;
+    }
+    #coffeeImage6 {
+        grid-area: 5/2/7/3;
+    }
+/*----------------------Explore Section---------------------*/
+
+    .grid #exploreGrid {
+        grid-template: repeat(7, 14%) / repeat(2, 50%);
+    }
+    #exploreImage1 {
+        grid-area: 1/1/2/3;
+    }
+    #exploreImage2 {
+        grid-area: 2/1/4/2;
+    }
+    #exploreImage3 {
+        grid-area: 5/1/7/3;
+    }
+    #exploreImage4 {
+        grid-area: 2/2/4/3;
+    }
+    #exploreImage5 {
+        grid-area: 4/1/5/2;
+    }
+    #exploreImage6 {
+        grid-area: 4/2/5/3;
+    }
+    /*----------------------------Footer-----------------------------*/
+    .footerMenu {
+        height: 8rem;
+        border-top: solid 0.25rem #f05454;
+    }
+    .footerMenu h2 {
+        font-size: 2rem;
+    }
+    .footerMenu a {
+        font-size: 1.5rem;
+    }
 }

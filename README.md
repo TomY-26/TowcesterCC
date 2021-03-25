@@ -19,7 +19,7 @@ in our CSS to size and position page elements.
 ## Project Plan
 
 Create a locally hosted single page website that will display images and content for
-a local cycling club, including images, nav with links and links to other local businesses.
+a local cycling club, including images, nav and footer with links to the different sections of the page.
 
 The website must be responsive and ensure all device types can view the page properly.
 The site will be created for mobile then scaled up to tablet and desktop in CSS.
@@ -39,12 +39,8 @@ The site will use command line in Powershell to commit changes or rollback if re
 
 ## Resources and Information
 
-- Fonts from google fonts
+- Fonts from google fonts - "Pacifico"
 
-- Fonts used
+- Fonts used - Arial, helvetica, sans-serif
 
-- Hex codes for colours used
-
-- Font sizes
-
-- External links
+- Hex codes for colours used - #f05454, #30475e, #e8e8e8, #222831

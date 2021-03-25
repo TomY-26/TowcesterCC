@@ -503,7 +503,7 @@ nav h2 {
         background-color: #f05454;
         color: #30475e;
     }
-    /*----------------------------Tablet grid layout-----------------------------*/
+    /*----------------------------Desktop grid layout-----------------------------*/
     /*--------------------Who We Are Section---------------------*/
     .grid #whoWeAreGrid {
         grid-template: repeat(5, 20%) / repeat(4, 25%);
@@ -551,56 +551,56 @@ nav h2 {
     /*----------------------Coffee Section---------------------*/
 
     .grid #coffeeGrid {
-        grid-template: repeat(7, 14%) / repeat(2, 50%);
+        grid-template: repeat(5, 20%) / repeat(4, 25%);
     }
     #coffeeImage1 {
-        grid-area: 3/1/4/2;
+        grid-area: 1/2/2/3;
     }
     #coffeeImage2 {
-        grid-area: 1/1/3/3;
+        grid-area: 1/1/3/2;
     }
     #coffeeImage3 {
-        grid-area: 4/1/5/3;
+        grid-area: 3/1/5/3;
     }
     #coffeeImage4 {
-        grid-area: 5/1/7/2;
+        grid-area: 1/3/3/4;
     }
     #coffeeImage5 {
-        grid-area: 3/2/4/3;
+        grid-area: 2/2/3/3;
     }
     #coffeeImage6 {
-        grid-area: 5/2/7/3;
+        grid-area: 3/3/5/4;
     }
 /*----------------------Explore Section---------------------*/
 
     .grid #exploreGrid {
-        grid-template: repeat(7, 14%) / repeat(2, 50%);
+        grid-template: repeat(5, 20%) / repeat(4, 25%);
     }
     #exploreImage1 {
         grid-area: 1/1/2/3;
     }
     #exploreImage2 {
-        grid-area: 2/1/4/2;
+        grid-area: 1/3/2/4;
     }
     #exploreImage3 {
-        grid-area: 5/1/7/3;
+        grid-area: 2/2/4/4;
     }
     #exploreImage4 {
-        grid-area: 2/2/4/3;
+        display: none;
     }
     #exploreImage5 {
-        grid-area: 4/1/5/2;
+        grid-area: 2/1/3/2;
     }
     #exploreImage6 {
-        grid-area: 4/2/5/3;
+        grid-area: 3/1/4/2;
     }
     /*----------------------------Footer-----------------------------*/
     .footerMenu {
-        height: 8rem;
-        border-top: solid 0.25rem #f05454;
+        height: 9rem;
+        border-top: solid 0.35rem #f05454;
     }
     .footerMenu h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .footerMenu a {
         font-size: 1.5rem;

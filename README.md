@@ -29,13 +29,13 @@ The site will use command line in Powershell to commit changes or rollback if re
 
 ## To-do List
 
-[x] Wireframe on paper for initial layout
-[x] Create directories and relevant files
-[] Compile resources
-[] Add resources to folders / HTML
-[] Create HTML structure
-[] Add CSS styling
-[] Add media queries for various view port sizes
+- [x] Wireframe on paper for initial layout
+- [x] Create directories and relevant files
+- [x] Compile resources
+- [x] Add resources to folders / HTML
+- [x] Create HTML structure
+- [x] Add CSS styling
+- [x] Add media queries for various view port sizes
 
 ## Resources and Information
 
